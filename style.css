@@ -1,0 +1,108 @@
+body {
+   background: linear-gradient(
+   45deg,
+   #fff8e7,
+   #f5d7b2,
+   #e8c39e,
+   #f3e5d0
+   );
+   padding: 10px;
+}
+
+.page-title {
+   text-align: center;
+   font-family:'Merriweather', 'Roboto', 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.hero {
+   max-width: fit-content;
+   text-align: center;
+   margin: 0 auto;
+}
+
+.container {
+   margin: 1% auto;
+   background-color: rgb(255, 251, 131);
+   width: 400px;
+   font-size:xx-large;
+   padding: 20px;
+   text-align: center;
+   font-family:"Caveat", Arial, Helvetica, sans-serif;
+    
+}
+
+.list-container {
+   display: inline-block;
+   text-align: left;
+}
+
+.recipe-title {
+   font-family:'Caveat', 'Times New Roman', Times, serif;
+}
+
+.list-container a:visited {
+   color: #4A2E1F;
+}
+
+.list-container a:hover {
+   color: green;
+}
+
+.list-container li:hover {
+   color: red;
+}
+
+ /* recipe pages */
+
+.navbar>ul{
+   font-size: x-large;
+   font-family: 'Caveat', 'Courier New', Courier, monospace;
+   list-style-type: none;
+   padding: 0;
+   margin-top: 0;
+}
+.navbar>ul>li:first-child{
+   font-family: 'Nunito', 'Courier New', Courier, monospace;
+}
+
+.navbar>ul>li{
+   display: inline-block;
+   margin-right: 20px;
+}
+
+.navbar>ul>li>a{
+   text-decoration: none;  
+}
+
+.navbar>ul>li>a:visited{
+   color: #4A2E1F;
+}
+
+.navbar>ul>li>a:hover{
+   color: #B85C38;
+}
+
+h1, h2 {
+    font-family:"Dancing Script", Arial, Helvetica, sans-serif;
+}
+
+section {
+  border: 1px solid #d8862f;
+  border-radius: 14px;
+  padding: 20px;
+  margin-bottom: 20px;
+  background-color: #f6c878;
+  color: #1f1308;
+
+  border: 1px solid #d29345;
+  border-radius: 14px;
+  padding: 20px;
+  margin-bottom: 20px;
+  background-color: #f1c98e;
+  color: #1f1308;
+}
+
+section:last-child{
+  border-color: #c87822;
+  background-color: #e7aa58;
+}
